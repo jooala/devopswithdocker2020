@@ -1,0 +1,5 @@
+docker run -p 1234:80 devopsdockeruh/ports_exercise
+
+open browser localhost:1234 and you can see text:
+
+"Ports configured correctly!!"
