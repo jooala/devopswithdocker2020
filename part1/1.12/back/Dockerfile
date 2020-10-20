@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y nodejs
 RUN git clone https://github.com/docker-hy/backend-example-docker.git
 
 EXPOSE 8000
+ENV FRONT_URL=http://localhost:5000
 WORKDIR /mydir/backend-example-docker
 
 RUN npm install

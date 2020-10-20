@@ -1,2 +1,2 @@
 docker build -t back-ex .
-docker run -p 8000:8000 back-ex
+docker run -it -p 8000:8000 -v %cd%/logs.txt:/mydir/backend-example-docker/logs.txt back-ex
